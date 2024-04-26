@@ -1,0 +1,30 @@
+/* header */
+
+.app-header {
+  background-color: var(--app-color-bg-secondary);
+}
+
+.app-header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  block-size: 60px;
+}
+
+.app-logo {
+  font-weight: 800;
+}
+
+/* footer */
+
+.app-footer {
+  padding-block: 32px;
+  background-color: var(--app-color-bg-secondary);
+}
+
+.app-footer p {
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 1px;
+  color: var(--app-color-secondary);
+}

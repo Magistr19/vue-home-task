@@ -1,0 +1,10 @@
+:root {
+  --app-color-primary: #2f2f2f;
+  --app-color-secondary: #363636;
+  --app-color-bg-primary: #fff;
+  --app-color-bg-secondary: #f2f3f4;
+
+  --app-font-family: 'Montserrat', sans-serif;
+
+  --app-header-height: 60px;
+}

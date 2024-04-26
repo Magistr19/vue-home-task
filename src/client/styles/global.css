@@ -1,0 +1,45 @@
+html {
+  overflow-y: auto;
+}
+body {
+  font-family: var(--app-font-family);
+  font-size: 0.875rem;
+  color: var(--app-color-primary);
+  background-color: var(--app-color-bg-primary);
+}
+input,
+button,
+select,
+textarea {
+  font-family: var(--app-font-family);
+}
+
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.15s ease;
+}
+
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
+}
+
+label.checkbox {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+input[type='checkbox'] {
+  block-size: 1rem;
+  inline-size: 1rem;
+}
+
+.box {
+  color: var(--app-color-primary);
+}
+
+.modal .modal-content {
+  max-width: calc(100% - 16px);
+  max-height: calc(100vh - 32px);
+}
